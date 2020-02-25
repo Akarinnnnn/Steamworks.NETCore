@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SteamRemoteStorage", "SteamRemoteStorage\SteamRemoteStorage.vcxproj", "{4910C86F-7F5A-46AC-A399-42A832D723FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SteamWorks_impheader_1.48", "SteamWorks_impheader\SteamWorks_impheader.vcxitems", "{81BCD56A-7B4B-4BCF-9118-B5D4181F47C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "APIBase", "APIBase\APIBase.vcxproj", "{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCallbackManager", "NCallbackManager\NCallbackManager.vcxproj", "{3CEF3B58-76AE-4075-976B-079849D4742E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SteamWorks_impheader\SteamWorks_impheader.vcxitems*{3cef3b58-76ae-4075-976b-079849d4742e}*SharedItemsImports = 4
+		SteamWorks_impheader\SteamWorks_impheader.vcxitems*{4910c86f-7f5a-46ac-a399-42a832d723fe}*SharedItemsImports = 4
+		SteamWorks_impheader\SteamWorks_impheader.vcxitems*{81bcd56a-7b4b-4bcf-9118-b5d4181f47c0}*SharedItemsImports = 9
+		SteamWorks_impheader\SteamWorks_impheader.vcxitems*{abc9ee02-5a3c-4217-9b6d-0047831cfd1f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Debug|x64.ActiveCfg = Debug|x64
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Debug|x64.Build.0 = Debug|x64
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Debug|x86.Build.0 = Debug|Win32
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Release|x64.ActiveCfg = Release|x64
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Release|x64.Build.0 = Release|x64
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Release|x86.ActiveCfg = Release|Win32
+		{4910C86F-7F5A-46AC-A399-42A832D723FE}.Release|x86.Build.0 = Release|Win32
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Debug|x64.ActiveCfg = Debug|x64
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Debug|x64.Build.0 = Debug|x64
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Debug|x86.Build.0 = Debug|Win32
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Release|x64.ActiveCfg = Release|x64
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Release|x64.Build.0 = Release|x64
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Release|x86.ActiveCfg = Release|Win32
+		{ABC9EE02-5A3C-4217-9B6D-0047831CFD1F}.Release|x86.Build.0 = Release|Win32
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Debug|x64.ActiveCfg = Debug|x64
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Debug|x64.Build.0 = Debug|x64
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Debug|x86.Build.0 = Debug|Win32
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Release|x64.ActiveCfg = Release|x64
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Release|x64.Build.0 = Release|x64
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Release|x86.ActiveCfg = Release|Win32
+		{3CEF3B58-76AE-4075-976B-079849D4742E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1998F28D-A831-4D46-92A8-F0BC6A859B7F}
+	EndGlobalSection
+EndGlobal

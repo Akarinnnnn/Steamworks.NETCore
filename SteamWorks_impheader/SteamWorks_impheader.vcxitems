@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{81bcd56a-7b4b-4bcf-9118-b5d4181f47c0}</ItemsProjectGuid>
+    <ItemsProjectName>SteamWorks_impheader_1.48</ItemsProjectName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamapplist.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamapps.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamappticket.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamclient.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamcontroller.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamfriends.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamgamecoordinator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamgameserver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamgameserverstats.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamhtmlsurface.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamhttp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteaminventory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteammasterserverupdater.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteammatchmaking.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteammusic.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteammusicremote.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamnetworking.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamparentalsettings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamps3overlayrenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamremotestorage.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamscreenshots.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamugc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamuser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamuserstats.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamutils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)isteamvideo.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)matchmakingtypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamclientpublic.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamencryptedappticket.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamhttpenums.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamps3params.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamtypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steamuniverse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steam_api.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steam_api_flat.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steam_api_internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)steam_gameserver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Link Build C++17.props" />
+  </ItemGroup>
+</Project>
