@@ -12,7 +12,7 @@ namespace Steamworks::NETCore::Detail
 {
 	class NCallResult;
 	extern "C" __EXPORT__ NCallResult * __cdecl MakeCallResult(int idx, uint8 flags, SteamAPICall_t handle, int size, void (*handler) (void*,bool));
-
+	extern "C" __EXPORT__ void __cdecl FreeCallResult(NCallResult*);
 
 	class NCallResult : public CCallbackBase
 	{

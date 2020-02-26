@@ -6,3 +6,8 @@ Steamworks::NETCore::Detail::NCallResult* __cdecl Steamworks::NETCore::Detail::M
 {
 	return new NCallResult(idx, flags, handle, size, handler);
 }
+
+void __cdecl Steamworks::NETCore::Detail::FreeCallResult(NCallResult* ptr)
+{
+	delete ptr;
+}
